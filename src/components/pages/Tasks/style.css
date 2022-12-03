@@ -1,0 +1,74 @@
+.man {
+	margin: 0 auto;
+
+	margin-top: 10%;
+	display: flex;
+
+	width: 70%;
+}
+.man__avatar {
+	width: 70%;
+	height: 40%;
+	display: block;
+	float: left;
+	/* object-fit: cover; */
+	margin: 0 10px  1px 0;
+}
+
+.man_info-top{
+	display: flex;
+	align-items: baseline;
+}
+
+.man__fullname,
+.man__description {
+	margin-left: 40px;
+	font-size: 20px;
+	
+	color: white;
+}
+
+.man__fullname {
+	margin-top: 0;
+	color: rgb(255, 132, 132);
+}
+.man__description{
+	padding-bottom: 80px;
+}
+.man__edit {
+	border: 1px solid white;
+	color: rgb(41, 41, 41);
+	font-weight: 600;
+	cursor: pointer;
+	transition: 0.5s;
+	height: 15px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 4px;
+	margin-left: 10px;
+	background: rgb(255, 226, 62);
+}
+
+.man__edit:hover {
+	background: rgb(255, 221, 169);
+	color: black;
+}
+
+.corzina {
+	cursor: pointer;
+	border: 1px solid white;
+	width: 200px;
+	margin: 0 auto;
+	margin-bottom: 10%;
+	padding: 20px;
+	transition: 0.5s;
+	margin-left: 30px;
+}
+
+.corzina:hover{
+	background: white;
+	color: black;
+}
+
+.man__add{
+}
